@@ -18,4 +18,79 @@
     <string name="delete_tasks">Delete tasks</string>
     <string name="settings">Settings</string>
     <string name="log_out">Log out</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="created_by_nevena_all_rights_preserved">Created by Nevena. All rights preserved.</string>
+    <string name="darkmode">Darkmode</string>
+    <string name="tempico">Tempico</string>
+    <string name="myTasks">My Tasks</string>
+    <string name="timeOverview">Time Overview</string>
+    <string name="settings2">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_password">Password</string>
+    <string name="enter_your_email">E-Mail</string>
+    <string name="geeks_for_geeks">Geeks for Geeks</string>
+    <string name="welcome_to_settings">Welcome to Settings!</string>
+    <string name="welcome_to_time_overview">Welcome to Time overview!</string>
+    <string name="welcome_to_your_task_list">Welcome to your task list!</string>
+    <string name="button">Button</string>
+    <string name="nextfragment">nextFragment</string>
+    <string name="here_you_can_write_a_brief_description_or_key_words_that_suit_the_task_the_most">Here you can write a brief description or key words that suit the task the most.</string>
+    <string name="hello">hello</string>
+
+    <string name="prefered_time_unit">Preferred time unit</string>
+    <string name="choose_pref_time_unit">Choose what time unit will be shown</string>
+    <string name="key_time_unit">key_time_unit</string>
+    <string name="key_pref_darkmode">remind_me_for_bed_time</string>
+    <string name="pref_theme">Darkmode</string>
+    <string name="limit_data_usage">prefs_limit_data_usage</string>
+    <string name="stream_video">Only stream HD video on Wi-Fi</string>
+    <string name="limit_mobile_usage">Limit mobile data usage</string>
+    <string name="double_tap_to_seek">Double-tap to seek</string>
+    <string name="pref_seek_val">pref_seek_val</string>
+    <string name="seconds">seconds</string>
+    <string name="uploads">Uploads</string>
+    <string name="pref_uploads">pref_uploads</string>
+    <string name="specify_network_prefs">Specify network preferences for uploads</string>
+    <string name="prefs_restricted_mode">prefs_restricted_mode</string>
+    <string name="restricted_mode">Restricted Mode can help to hide videos with potentially mature content.No filter is 100% accurate, but it should help you to avoid most of this type of content.</string>
+    <string name="restricted_mode_description">Restricted Mode</string>
+    <string name="prefs_enable_stats">prefs_enable_stats</string>
+    <string name="enable_stats">Enable stats for nerds</string>
+    <string name="pref_import_storage_location">pref_storage_location</string>
+    <string name="pref_export_storage_location">pref_storage_location</string>
+    <string name="logout">Log out</string>
+
+    <string-array name="pref_upload_quality_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>Original</item>
+    </string-array>
+
+    <string-array name="pref_time_units">
+        <item>1/5/15min</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string-array name="pref_seek_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="pref_duration">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="pref_uploads">
+        <item>Only when on Wi-Fi</item>
+        <item>On any network</item>
+    </string-array>
 </resources>

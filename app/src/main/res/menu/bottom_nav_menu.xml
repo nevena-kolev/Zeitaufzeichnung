@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-  
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/myTasks"
+        android:title="@string/myTasks"
+        android:icon="@drawable/list_500px"/>
+    <item
+        android:id="@+id/timeOverview"
+        android:title="@string/timeOverview"
+        android:icon="@drawable/pie_chart_500px"/>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings2"
+        android:icon="@drawable/settings_500px"/>
 </menu>

@@ -1,4 +1,4 @@
-package com.example.zeitaufzeichnung.fragments;
+package com.example.zeitaufzeichnung.fragments.mainfragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

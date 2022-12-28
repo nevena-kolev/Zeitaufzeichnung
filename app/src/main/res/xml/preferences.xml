@@ -1,4 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-  
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.mainfragments.SettingsFragment">
+
+    <PreferenceCategory
+        android:title="General"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/prefered_time_unit"
+            android:entries="@array/pref_time_units"
+            android:entryValues="@array/pref_duration"
+            android:key="@string/key_time_unit"
+            android:summary="@string/choose_pref_time_unit"
+            android:title="@string/prefered_time_unit"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_pref_darkmode"
+            android:title="@string/pref_theme"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Default file location"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            android:key="@string/pref_export_storage_location"
+            android:title="Export files"
+            android:summary="Choose a location for your export files">
+
+            <intent
+                android:action="android.intent.action.OPEN_DOCUMENT_TREE"
+                android:targetPackage="com.example.zeitaufzeichnung" />
+        </Preference>
+
+        <Preference
+            app:iconSpaceReserved="false"
+            android:key="pref_import_storage_location"
+            android:title="Import files"
+            android:summary="Choose a location for your import files">
+
+            <intent
+                android:action="android.intent.action.OPEN_DOCUMENT_TREE"
+                android:targetPackage="com.example.zeitaufzeichnung" />
+        </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>
